@@ -1,9 +1,11 @@
 #include <iostream>
 #include <string>
-int main(int argc, char** argv)
+int
+main(int argc, char** argv)
 {
- std::string name; //Имя пользователя 
+HEAD
+ std::string name; // User name 
  std::cout<<"Enter your name \n";
  std::cin>>name;
- std::cout<<"Hello World from "<<name<<std::endl; //Результат
+ std::cout<<"Hello World from "<<name<<std::endl; // resultik
 }
